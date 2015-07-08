@@ -32,28 +32,31 @@
   <ItemGroup>
     <Reference Include="Accord, Version=2.14.0.0, Culture=neutral, PublicKeyToken=fa1a88e29555ccf7, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Accord.NET\Framework\Release\net35\Accord.dll</HintPath>
+      <HintPath>Externals\Accord.dll</HintPath>
     </Reference>
     <Reference Include="Accord.MachineLearning, Version=2.14.0.0, Culture=neutral, PublicKeyToken=fa1a88e29555ccf7, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Accord.NET\Framework\Release\net35\Accord.MachineLearning.dll</HintPath>
+      <HintPath>Externals\Accord.MachineLearning.dll</HintPath>
     </Reference>
     <Reference Include="Accord.Math, Version=2.14.0.0, Culture=neutral, PublicKeyToken=fa1a88e29555ccf7, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Accord.NET\Framework\Release\net35\Accord.Math.dll</HintPath>
+      <HintPath>Externals\Accord.Math.dll</HintPath>
     </Reference>
     <Reference Include="Accord.Statistics, Version=2.14.0.0, Culture=neutral, PublicKeyToken=fa1a88e29555ccf7, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Accord.NET\Framework\Release\net35\Accord.Statistics.dll</HintPath>
+      <HintPath>Externals\Accord.Statistics.dll</HintPath>
     </Reference>
-    <Reference Include="AForge">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Accord.NET\Framework\Externals\AForge.NET\AForge.dll</HintPath>
+    <Reference Include="AForge, Version=2.2.5.0, Culture=neutral, PublicKeyToken=c1db6ff4eaa06aeb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Externals\AForge.dll</HintPath>
     </Reference>
-    <Reference Include="AForge.Math">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Accord.NET\Framework\Externals\AForge.NET\AForge.Math.dll</HintPath>
+    <Reference Include="AForge.Math, Version=2.2.5.0, Culture=neutral, PublicKeyToken=abba2e25397ee8c9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Externals\AForge.Math.dll</HintPath>
     </Reference>
-    <Reference Include="LeapCSharp.NET3.5">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Leap Motion\lib\LeapCSharp.NET3.5.dll</HintPath>
+    <Reference Include="LeapCSharp.NET3.5, Version=2.2.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Externals\LeapCSharp.NET3.5.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
